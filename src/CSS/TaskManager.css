@@ -1,0 +1,23 @@
+.task-manager-container {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-top: 150px;
+  background-color: #b1b1f5;
+  margin-bottom: 80px;
+}
+
+.task-manager-label {
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.task-manager-date-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
