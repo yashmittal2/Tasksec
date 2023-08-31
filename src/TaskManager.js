@@ -33,14 +33,14 @@ const TaskManager = () => {
   };
 
   return (
-    <div className="task-manager-container">
-      <label className="task-manager-label">
+    <div className="task-manager">
+      <label className="dates">
         Select Date:
         <input
           type="date"
           value={selectedDate}
           onChange={(e) => handleDateChange(e.target.value)}
-          className="task-manager-date-input"
+          className="date-input"
         />
       </label>
       <TaskForm onAddTask={handleAddTask} />
