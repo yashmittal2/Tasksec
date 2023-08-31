@@ -5,8 +5,14 @@ const CompletedTasks = ({ completionPercentage, selectedDate }) => {
   return (
     <div className="completed-tasks">
       <h2 className="completed-tasks-title">Completed Tasks</h2>
-      <p>Date: {selectedDate.toString()}</p>
-      <p>Completion Percentage: {completionPercentage.toFixed(2)}%</p>
+      <p>
+        <span style={{ fontWeight: 600 }}>Date:</span> {selectedDate.toString()}
+      </p>
+      <p>
+        {" "}
+        <span style={{ fontWeight: 600 }}>Completion Percentage:</span>{" "}
+        {completionPercentage.toFixed(2)}%
+      </p>
     </div>
   );
 };
